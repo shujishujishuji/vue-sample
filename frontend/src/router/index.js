@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Top from './pages/top' //追記
-import About from './pages/about' //追記
+import Top from '../pages/top.vue' //追記
+import About from '../pages/about.vue' //追記
 
 Vue.use(Router)
 
