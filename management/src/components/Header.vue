@@ -1,13 +1,13 @@
 <template>
-  <div class="example">{{ msg }}</div>
+  <div>{{ msg }}</div>
 </template>
 
 <script>
 export default {
-  name: 'Example',
+  name: 'Header',
   data() {
     return {
-      msg: 'Hello phospital',
+      msg: 'Header-Bar',
     };
   },
   created() {
@@ -16,8 +16,6 @@ export default {
   },
 };
 </script>
-<style scoped>
-.example{
-  font-weight: bold;
-}
+<style>
+
 </style>
