@@ -5,7 +5,7 @@ import About from '../pages/about.vue' //追記
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   mode: 'history',  // 追記 URLに#が入るのを防止
   base: 'test/vue-router-test', //追記 ベースURL 今回はサーバー内のサブディレクトリに保存したいため
   routes: [
@@ -21,3 +21,5 @@ export default new Router({
     }
   ]
 })
+
+export default router;
